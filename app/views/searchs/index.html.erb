@@ -23,7 +23,8 @@
             <div class="custom_cards-cards">
               <%= text_field_tag :title, params[:title] ,:placeholder=>"title name",:class=>"banner-select-box"%>
             </div>
-            <%= submit_tag "Search", :name => nil , :class=> "lets-start" %>
+            <div class="lets-start">
+              <%= submit_tag "Search", :name => nil, :class=> "let-submit"%></div>
             <article class="clearfix"></article>
           <%end%>
         </div>
